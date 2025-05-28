@@ -1,0 +1,338 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>main</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="css/font-awesome.min.css" rel="stylesheet">
+<link href="css/reactiondigest.css" rel="stylesheet">
+<link href="css/index.css" rel="stylesheet">
+<script src="jquery-3.7.1.min.js"></script>
+<script src="jquery-ui.min.js"></script>
+<script src="wwb20.min.js"></script>
+<script>   
+   $(document).ready(function()
+   {
+      $("a[href*='#header']").click(function(event)
+      {
+         event.preventDefault();
+         $('html, body').stop().animate({ scrollTop: $('#wb_header').offset().top }, 600, 'easeOutQuad');
+      });
+      $("#wb_event1Collapse").hide();;
+      $("#event1Details").hide();;
+      $("a[href*='#signup']").click(function(event)
+      {
+         event.preventDefault();
+         $('html, body').stop().animate({ scrollTop: $('#wb_signup').offset().top-88 }, 600, 'easeOutCirc');
+      });
+      $("#event2Details").hide();;
+      $("#wb_event2Collapse").hide();;
+      $("#wb_event3Collapse").hide();;
+      $("#event3Details").hide();;
+      $("#wb_event4Collapse").hide();;
+      $("#event4Details").hide();;
+   });
+</script>
+</head>
+<body>
+   <div id="wb_LayoutGrid2">
+      <div id="LayoutGrid2">
+         <div class="row">
+            <div class="col-1">
+               <div id="wb_Image1" style="display:block;width:100%;height:auto;z-index:0;">
+                  <img src="images/2357346.png" loading="lazy" id="Image1" alt="" title="Weekly Chemistry Content and News" width="940" height="627"><div id="Image1-overlay"></div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="wb_header">
+      <div id="header">
+         <div class="row">
+            <div class="col-1">
+               <div id="wb_Text1">
+                  <span style="color:#5A716A;font-family:Arial;font-size:16px;"><strong>Reaction Digest</strong></span>
+               </div>
+            </div>
+            <div class="col-2">
+               <div id="wb_aboutMeMenu" style="display:block;width:100%;z-index:2;">
+                  <ul id="aboutMeMenu" role="menubar" class="nav">
+                     <li role="menuitem" class="nav-item firstmain"><a class="nav-link" href="./index.html" target="_self" title="Home">Home</a>
+                     </li>
+                     <li role="menuitem" class="nav-item"><a class="nav-link withsubmenu" href="./Reactions&Mechanisms.html" target="_self" title="Reactions &amp; Mechanisms">Reactions&nbsp;&amp;&nbsp;Mechanisms</a>
+                        <ul role="menu">
+                           <li role="menuitem" class="nav-item firstitem"><a class="nav-link" href="./Polar-Reactions.html" target="_self" title="Polar Reactions">Polar&nbsp;Reactions</a>
+                           </li>
+                           <li role="menuitem" class="nav-item"><a class="nav-link" href="./Pericyclic-Reactions.html" target="_self" title="Pericyclic Reactions">Pericyclic&nbsp;Reactions</a>
+                           </li>
+                           <li role="menuitem" class="nav-item"><a class="nav-link" href="./Free-Radical-Reactions.html" target="_self" title="Free-radical Reactions">Free-radical&nbsp;Reactions</a>
+                           </li>
+                           <li role="menuitem" class="nav-item lastitem"><a class="nav-link" href="./Metal-Catalyzed-Reactions.html" target="_self" title="Metal-catalyzed Reactions">Metal-catalyzed&nbsp;Reactions</a>
+                           </li>
+                        </ul>
+                     </li>
+                     <li role="menuitem" class="nav-item"><a class="nav-link" href="#services" target="_self" title="Synthetic Strategies">Synthetic&nbsp;Strategies</a>
+                     </li>
+                     <li role="menuitem" class="nav-item"><a class="nav-link" href="#facts" target="_self">Applications</a>
+                     </li>
+                     <li role="menuitem" class="nav-item"><a class="nav-link" href="#portfolio" target="_self">Featured&nbsp;Papers</a>
+                     </li>
+                     <li role="menuitem" class="nav-item"><a class="nav-link" href="" target="_self">Donate</a>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="wb_LayoutGrid1">
+      <div id="LayoutGrid1">
+         <div class="row">
+            <div class="col-1">
+               <div id="wb_news11Heading" style="display:block;width:100%;z-index:37;">
+                  <h3 id="news11Heading">Latest Content</h3>
+               </div>
+               <div id="wb_news11Text1">
+                  <p>Weekly organic chemistry content and news </p>
+               </div>
+               <div id="wb_event1Title">
+                  <main id="event1Title">
+                     <div class="col-1">
+                        <div id="wb_Icon2" style="display:inline-block;width:92px;height:87px;text-align:center;z-index:3;">
+                           <div id="Icon2"><i class="fa fa-newspaper-o"></i></div>
+                        </div>
+                     </div>
+                     <div class="col-2">
+                        <div class="col-2-padding">
+                           <div id="wb_event1Heading1">
+                              <p>Featured Papers (25 May 2025)</p>
+                           </div>
+                           <div id="wb_event1Heading2">
+                              <p>Direct Access to Benzofurans and Indoles from Ethylene with 2-Methylphenols/Anilines through Iridium-Catalyzed Dehydrogenative Annulation</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-3">
+                        <div class="col-3-padding">
+                           <div id="wb_event1Expand" style="display:inline-block;width:32px;height:32px;text-align:center;z-index:6;">
+                              <a href="#" onclick="ShowObjectWithEffect('wb_event1Expand', 0, 'fade', 1);ShowObjectWithEffect('wb_event1Collapse', 1, 'fade', 1);$('#event1Details').slideDown(300);return false;"><div id="event1Expand"><i class="fa fa-plus"></i></div></a>
+                           </div>
+                           <div id="wb_event1Collapse" style="display:inline-block;width:32px;height:32px;text-align:center;z-index:7;">
+                              <a href="#" onclick="ShowObjectWithEffect('wb_event1Collapse', 0, 'fade', 1);ShowObjectWithEffect('wb_event1Expand', 1, 'fade', 1);$('#event1Details').slideUp(300);return false;"><div id="event1Collapse"><i class="fa fa-minus"></i></div></a>
+                           </div>
+                        </div>
+                     </div>
+                  </main>
+               </div>
+               <div id="wb_event1Details">
+                  <main id="event1Details">
+                     <div class="row">
+                        <div class="col-1">
+                           <div id="wb_news11Text2">
+                              <p>The direct conversion of o-cresol and 2-methylphenols to 2-methylbenzofurans was achieved by an Ir/DTBE-DPPE-catalyzed reaction under an atmosphere of ethylene (1 atm). The reaction involves the initial selective formation of a C–C bond at the benzylic C(sp3)–H bond of 2-methylphenols with ethylene without the accommodation of the C(sp2)–H bonds at the 6-positions, which is followed by subsequent C–O bond-forming annulation along with associated dehydrogenation and double bond migration steps. The reaction conditions also allowed for the direct conversion of o-toluidine and 2-methylanilines into 2-methylindoles.</p>
+                           </div>
+                           <button type="button" id="eventsButton1" name="" value="READ MORE" class="ui-button ui-corner-all" style="display:inline-block;width:103px;height:36px;z-index:9;">READ MORE</button>
+                        </div>
+                     </div>
+                  </main>
+               </div>
+               <div id="wb_LayoutGrid5">
+                  <div id="LayoutGrid5">
+                     <div class="row">
+                        <div class="col-1">
+                           <div id="wb_LayoutGrid3">
+                              <main id="LayoutGrid3">
+                                 <div class="col-1">
+                                    <div id="wb_Icon4" style="display:inline-block;width:92px;height:99px;text-align:center;z-index:10;">
+                                       <div id="Icon4"><i class="fa fa-comments-o"></i></div>
+                                    </div>
+                                 </div>
+                                 <div class="col-2">
+                                    <div class="col-2-padding">
+                                       <div id="wb_Text2">
+                                          <p>Applications (25&nbsp;May&nbsp;2025)</p>
+                                       </div>
+                                       <div id="wb_Text3">
+                                          <p>A short history of antiviral drugs</p>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="col-3">
+                                    <div class="col-3-padding">
+                                       <div id="wb_event2Expand" style="display:inline-block;width:32px;height:32px;text-align:center;z-index:13;">
+                                          <a href="#" onclick="ShowObjectWithEffect('wb_event2Expand', 0, 'fade', 1);ShowObjectWithEffect('wb_event2Collapse', 1, 'fade', 1);$('#event2Details').slideDown(300);return false;"><div id="event2Expand"><i class="fa fa-plus"></i></div></a>
+                                       </div>
+                                       <div id="wb_event2Collapse" style="display:inline-block;width:32px;height:32px;text-align:center;z-index:14;">
+                                          <a href="#" onclick="ShowObjectWithEffect('wb_event2Collapse', 0, 'fade', 1);ShowObjectWithEffect('wb_event2Expand', 1, 'fade', 1);$('#event2Details').slideUp(300);return false;"><div id="event2Collapse"><i class="fa fa-minus"></i></div></a>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </main>
+                           </div>
+                           <div id="wb_event2Details">
+                              <main id="event2Details">
+                                 <div class="col-1">
+                                    <div id="wb_news11Text3">
+                                       <p>Approximately 90 antiviral drugs have been approved worldwide since the 1960s. Medicines to prevent HIV and treat COVID-19 are the most recent. Here we look at how antivirals work and some key drugs.</p>
+                                    </div>
+                                    <button type="button" id="eventsButton2" name="" value="READ MORE" class="ui-button ui-corner-all" style="display:inline-block;width:105px;height:36px;z-index:16;">READ MORE</button>
+                                 </div>
+                              </main>
+                           </div>
+                           <div id="wb_event3Title">
+                              <main id="event3Title">
+                                 <div class="col-1">
+                                    <div id="wb_Icon3" style="display:inline-block;width:82px;height:78px;text-align:center;z-index:17;">
+                                       <div id="Icon3"><i class="fa fa-recycle"></i></div>
+                                    </div>
+                                 </div>
+                                 <div class="col-2">
+                                    <div class="col-2-padding">
+                                       <div id="wb_event3Heading1">
+                                          <p>Synthetic Strategies (25&nbsp;May&nbsp;2025)</p>
+                                       </div>
+                                       <div id="wb_event3Heading2">
+                                          <p>Highlights alternative organic synthesis reactions &amp; routes, green chemistry or cost-effective approaches</p>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="col-3">
+                                    <div class="col-3-padding">
+                                       <div id="wb_event3Expand" style="display:inline-block;width:32px;height:32px;text-align:center;z-index:20;">
+                                          <a href="#" onclick="ShowObjectWithEffect('wb_event3Expand', 0, 'fade', 1);ShowObjectWithEffect('wb_event3Collapse', 1, 'fade', 1);$('#event3Details').slideDown(300);return false;"><div id="event3Expand"><i class="fa fa-plus"></i></div></a>
+                                       </div>
+                                       <div id="wb_event3Collapse" style="display:inline-block;width:32px;height:32px;text-align:center;z-index:21;">
+                                          <a href="#" onclick="ShowObjectWithEffect('wb_event3Collapse', 0, 'fade', 1);ShowObjectWithEffect('wb_event3Expand', 1, 'fade', 1);$('#event3Details').slideUp(300);return false;"><div id="event3Collapse"><i class="fa fa-minus"></i></div></a>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </main>
+                           </div>
+                           <div id="wb_event3Details">
+                              <main id="event3Details">
+                                 <div class="col-1">
+                                    <div id="wb_news11Text4">
+                                       <p>Green chemistry principles according to the U.S. Environmental Protection Agency (EPA), include: (1) waste prevention instead of remediation, (2) atom economy or efficiency, (3) use of less hazardous and toxic chemicals, (4) safer products by design, (5) innocuous solvents and auxilaries, (6) energy efficiency by design, (7) preferred use of renewable raw materials, (8) shorter synthesis, (9) catayltic rather than stoichiometric reagents, (10) design products to undergo degradation in the environment, (11) analytical methodologies for pollution prevention, (12) inherently safer processes</p>
+                                    </div>
+                                    <button type="button" id="eventsButton3" name="" value="READ MORE" class="ui-button ui-corner-all" style="display:inline-block;width:110px;height:36px;z-index:23;">READ MORE</button>
+                                 </div>
+                              </main>
+                           </div>
+                           <div id="wb_event4Title">
+                              <main id="event4Title">
+                                 <div class="col-1">
+                                    <div id="wb_Icon1" style="display:inline-block;width:91px;height:92px;text-align:center;z-index:24;">
+                                       <div id="Icon1"><i class="fa fa-gears"></i></div>
+                                    </div>
+                                 </div>
+                                 <div class="col-2">
+                                    <div class="col-2-padding">
+                                       <div id="wb_Text4">
+                                          <p>Reactions &amp; Mechanisms (24 May 2025)</p>
+                                       </div>
+                                       <div id="wb_Text5">
+                                          <p>Dive into research on specific organic reactions and their detailed mechanisms.</p>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="col-3">
+                                    <div class="col-3-padding">
+                                       <div id="wb_event4Expand" style="display:inline-block;width:32px;height:32px;text-align:center;z-index:27;">
+                                          <a href="#" onclick="ShowObjectWithEffect('wb_event4Expand', 0, 'fade', 1);ShowObjectWithEffect('wb_event4Collapse', 1, 'fade', 1);$('#event4Details').slideDown(300);return false;"><div id="event4Expand"><i class="fa fa-plus"></i></div></a>
+                                       </div>
+                                       <div id="wb_event4Collapse" style="display:inline-block;width:32px;height:32px;text-align:center;z-index:28;">
+                                          <a href="#" onclick="ShowObjectWithEffect('wb_event4Collapse', 0, 'fade', 1);ShowObjectWithEffect('wb_event4Expand', 1, 'fade', 1);$('#event4Details').slideUp(300);return false;"><div id="event4Collapse"><i class="fa fa-minus"></i></div></a>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </main>
+                           </div>
+                           <div id="wb_event4Details">
+                              <main id="event4Details">
+                                 <div class="row">
+                                    <div class="col-1">
+                                       <div id="wb_Text6">
+                                          <p>Suzuki-Miyaura cross-coupling reactions is an organometallic catalytic reaction towards carbon-carbon bond coupling. An endothermic reaction made possible by a palladium catalyst. </p>
+                                       </div>
+                                       <button type="button" id="ThemeableButton4" name="" value="READ MORE" class="ui-button ui-corner-all" style="display:inline-block;width:118px;height:36px;z-index:30;">READ MORE</button>
+                                    </div>
+                                 </div>
+                              </main>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-2">
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="wb_news11LayoutGrid1">
+      <div id="news11LayoutGrid1">
+         <div class="row">
+            <div class="col-1">
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="wb_signup" class="triangles-top">
+      <div id="signup">
+         <div class="row">
+            <div class="col-1">
+               <div class="col-1-padding">
+               </div>
+            </div>
+            <div class="col-2">
+               <div class="col-2-padding">
+                  <div id="wb_signupText">
+                     <p style="font-size:13px;line-height:16px;"><span style="font-size:32px;line-height:36px;font-weight:bold;">Sign up for the newsletter</span><br/><br/></p>
+                     <p style="font-size:15px;line-height:16.5px;">Get notified about new content on this website</p>
+                  </div>
+                  <input type="text" id="signupEmail" style="display:block;width:100%;height:34px;z-index:50;" name="email" value="" spellcheck="false" placeholder="EMAIL ADDRESS">
+                  <input type="submit" id="signupButton" name="" value="SUBMIT" style="display:inline-block;width:140px;height:39px;z-index:51;">
+               </div>
+            </div>
+            <div class="col-3">
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="wb_LayoutGrid6">
+      <div id="LayoutGrid6">
+         <div class="row">
+            <div class="col-1">
+               <div id="wb_FlexContainer2">
+                  <div id="FlexContainer2">
+                     <div id="wb_Card5" style="display:flex;z-index:100;" class="card">
+                        <div id="Card5-card-body">
+                           <div id="Card5-card-item0">About</div>
+                        </div>
+                     </div>
+                     <div id="wb_Card6" style="display:flex;z-index:101;" class="card">
+                        <div id="Card6-card-body">
+                           <div id="Card6-card-item0">Donate</div>
+                        </div>
+                     </div>
+                     <div id="wb_Card7" style="display:flex;z-index:102;" class="card">
+                        <div id="Card7-card-body">
+                           <div id="Card7-card-item0">Privacy Policy</div>
+                        </div>
+                     </div>
+                     <div id="wb_Card8" style="display:flex;z-index:103;" class="card">
+                        <div id="Card8-card-body">
+                           <div id="Card8-card-item0">Contact</div>
+                        </div>
+                     </div>
+                     <div id="wb_Text7">
+                        <p>@2025 chemdigest.com</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</body>
+</html>
